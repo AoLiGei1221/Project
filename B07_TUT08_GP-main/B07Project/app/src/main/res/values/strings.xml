@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- String used for Global App System -->
+
+    <string name="app_name">b07gp</string>
+    <string name="action_settings">Settings</string>
+    <string name="UserKey">key</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <!-- String used for log in and sign up pages -->
+    <string name="banner">Log in</string>
+    <string name="loginTitle">Course Planner</string>
+    <string name="loginDescription">Register</string>
+    <string name="adminLogin">Log in as admin</string>
+    <string name="signup">Sign Up</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="remember_me">Remember me</string>
+    <string name="i_am_an_admin">I am an admin</string>
+    <string name="register_user">REGISTER USER</string>
+    <string name="full_name">Full Name</string>
+
+    <!-- String used for admin add courses pages -->
+    <string name="adminAddCourseSubmit">New Course Submit</string>
+    <string name="adminAddCourse">Please fill the information about the new course</string>
+    <string name="adminAddCourseName">Course Name</string>
+    <string name="adminAddCourseCode">Course Code</string>
+    <string name="adminAddOffering">Offering Session</string>
+    <string name="adminAddPrereq">Prerequisite</string>
+    <string name="return_button">Previous</string>
+    <string name="timeline_submit_button">Submit</string>
+    <string name="timeline_add_button">Add</string>
+    <string name="add_course_textview">Add wanted course</string>
+    <string name="course_input">Course Code</string>
+    <string name="Timeline_table_return">Previous</string>
+
+    <!-- String used for admin list display pages -->
+    <string name="admin_list_display_add_course">Add Course</string>
+    <string name="admin_list_display_course_textview">Courses</string>
+    <string name="userName">User Name</string>
+    <string name="userMail">User Mail</string>
+
+
+
+    <string name="register">Register</string>
+    <string name="timeline_submit_button2">Submit</string>
+    <string name="timelinetable_textview">Your timeline</string>
+    <string name="admin_course_list_display">admin Course List Display</string>
+    <string name="hello">Hello,</string>
+    <string name="mailing_address">Mailing Address:</string>
+    <string name="logout">logOut</string>
+
+
+</resources>

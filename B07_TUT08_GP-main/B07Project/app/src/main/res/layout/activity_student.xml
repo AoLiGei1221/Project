@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:text="Hello,"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mailing Address:"
+        android:textSize="16sp"
+        android:layout_below="@id/adminName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/adminName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/adminMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userMail"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        android:textSize="16sp"
+        android:layout_below="@id/adminMail"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Student"
+        android:textSize="24sp"
+        android:layout_below="@id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/stuActTakenCourseDisplayButton"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#1E316C"
+        android:text="TakenCourseDisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/stuActGenerateTimelineButton"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/stuActLogOutButton"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#1E316C"
+        android:text="logOut"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/stuActGenerateTimelineButton"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#1E316C"
+        android:text="ToGenerateTimeline"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/stuActLogOutButton"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="314dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/uoft" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/adminActEditDisplayButton"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="7dp"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:text="dminEditDisplay"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.487"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/adminActAddCourseButton" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/adminActAddCourseButton"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="adminActivityAddCourse"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.257" />-->
+</RelativeLayout>
